@@ -1,5 +1,5 @@
-# SimpleCmakeProject
- A simple CMake project that has tests
+# Adapter pattern example
+ A simple Adapter pattern example in C++ that has tests
 
 To build this:
 
