@@ -1,5 +1,8 @@
 {
     "cmake.ctestDefaultArgs": [
         "--test-dir ."
-    ]
+    ],
+    "files.associations": {
+        "memory": "cpp"
+    }
 }
