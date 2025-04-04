@@ -16,6 +16,7 @@ target_link_libraries(my_app PRIVATE my_lib)
 enable_testing()
 
 # Add Google Test
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 add_subdirectory(third_party/googletest)
 
 # Add test subdirectory
