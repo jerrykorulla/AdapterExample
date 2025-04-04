@@ -1,0 +1,5 @@
+{
+    "cmake.ctestDefaultArgs": [
+        "--test-dir ."
+    ]
+}

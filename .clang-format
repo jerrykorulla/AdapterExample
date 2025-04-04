@@ -1,0 +1,15 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 100
+BreakBeforeBraces: Attach
+UseTab: Never
+
+IncludeBlocks: Regroup
+SortIncludes: true
+IncludeCategories:
+  - Regex: '^"../src/.*"'    # Project-specific headers (e.g., "../src/my_math.h")
+    Priority: 1
+  - Regex: '^<gtest/.*>'     # Google Test headers
+    Priority: 2
+  - Regex: '^<.*>'           # Standard library headers
+    Priority: 3
